@@ -1,3 +1,71 @@
-body{
-    background-color: darkslategrey;
+/*--------Setear el Index------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+html{
+    font-size: 62.5%;
+}
+
+/*--------------Encabezado -------*/
+
+header{
+    border: 2px dashed black;
+    height: 50vh;
+    background-image: url(../IMG/tecnology.jpg);
+    background-size:cover ;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction:column;
+    justify-content:center ;
+    align-items:center ;
+}
+
+.head{
+    border: 3xp dashed cyan;
+
+}
+
+.head_nombre{
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3rem;
+}
+
+.head_foto{
+    border-radius: 10px;
+    width: 50vw;
+    position: relative;
+    top: 70px;
+}
+
+
+/*{
+    margin: 5px;
+    padding: 5px;
+
+}
+body{
+    background-color: rgb(98, 129, 107);
+}
+
+.primer_cuadro{
+    background-color: white;
+    border: 1px dashed burlywood;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    text-align:start;
+    width: 195vh;
+    height: 45vw;
+    
+}
+
+.cuadro_uno{
+    background-color: rgb(118, 131, 120);
+    border: 1px dashed rgb(66, 80, 161);
+    width: 70vh;
+    height: 35vw;
+}*/
