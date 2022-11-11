@@ -12,68 +12,45 @@ html{
 /*--------------Encabezado -------*/
 
 header{
-    border: 2px dashed black;
+    /*border: 2px dashed black;*/
     height: 50vh;
-    background-image: url(../IMG/tecnology.jpg);
+    background-image: url(../IMG/ciudad.jpg.crdownload);
     background-size:cover ;
     background-repeat: no-repeat;
-    display: flex;
+    display:flex;
     flex-direction:column;
-    justify-content:center ;
-    align-items:center ;
+    justify-content:center;
+    align-items:center;
 }
 
 .head{
-    border: 3xp dashed cyan;
+    /*border: 2px dashed cyan;*/
     height: 50%;
     display: flex;
     flex-direction:column;
     justify-content:center ;
     align-items:center ;
     position: absolute;
-    top: 200px;
-
-
+    top: 150px;
 }
 
 .head_nombre{
+    /*border: 2px dashed salmon;*/
     color: white;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: sans-serif;
+    width: 320px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 380px;
     font-size: 3rem;
 }
 
 .head_foto{
     border-radius: 10px;
-    width: 50vw;
+    width: 40vh;
+    height: 80vw;
     position: relative;
-    top: 70px;
+    top: 20px;
 }
 
-
-/*{
-    margin: 5px;
-    padding: 5px;
-
-}
-body{
-    background-color: rgb(98, 129, 107);
-}
-
-.primer_cuadro{
-    background-color: white;
-    border: 1px dashed burlywood;
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-    text-align:start;
-    width: 195vh;
-    height: 45vw;
-    
-}
-
-.cuadro_uno{
-    background-color: rgb(118, 131, 120);
-    border: 1px dashed rgb(66, 80, 161);
-    width: 70vh;
-    height: 35vw;
-}*/

@@ -11,10 +11,18 @@
         top: 200px;
     
     }
-}
+
 
 .head_nombre{
     color: white;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 2rem;
+}
+
+.head_foto{
+    border-radius: 10px;
+    width: 50vw;
+    position: relative;
+    top: 70px;
+}
 }
