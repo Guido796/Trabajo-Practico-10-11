@@ -1,28 +1,49 @@
 @media (min-width: 800px) {
 
-    .head{
-    
-        height: 50%;
-        display: flex;
-        flex-direction:column;
-        justify-content:center ;
-        align-items:center ;
-        position: absolute;
-        top: 200px;
-    
-    }
+/*--------------Encabezado ---------*/
 
+header{
+    border: 2px dashed black;
+    height: 50vh;
+    background-image: url(../IMG/comunicacion.jpg);
+    background-size:cover ;
+    background-repeat: no-repeat;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.head{
+    border: 2px dashed cyan;
+    height: 50%;
+    display: flex;
+    flex-direction:column;
+    justify-content:center ;
+    align-items:center ;
+    position: absolute;
+    top: 150px;
+}
 
 .head_nombre{
-    color: white;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 2rem;
+    /*border: 2px dashed salmon;*/
+    color: rgba(243, 58, 12, 0.788);
+    font-family: sans-serif;
+    width: 420px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 380px;
+    font-size: 4rem;
 }
 
 .head_foto{
-    border-radius: 10px;
-    width: 50vw;
+    border-radius: 15px;
+    width: 45vh;
+    height: 65vw;
     position: relative;
-    top: 70px;
+    top: 40px;
 }
+
 }
