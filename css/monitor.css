@@ -1,49 +1,52 @@
-@media (min-width: 800px) {
+@media (min-width: 1000px) {
+
 
 /*--------------Encabezado ---------*/
 
-header{
-    border: 2px dashed black;
-    height: 50vh;
-    background-image: url(../IMG/comunicacion.jpg);
-    background-size:cover ;
-    background-repeat: no-repeat;
-    display:flex;
-    flex-direction:column;
+.head{
+    /*border: 2px dashed cyan;*/
+    height: 100%;
+    flex-direction:row;
     justify-content:center;
     align-items:center;
-}
-
-.head{
-    border: 2px dashed cyan;
-    height: 50%;
-    display: flex;
-    flex-direction:column;
-    justify-content:center ;
-    align-items:center ;
-    position: absolute;
-    top: 150px;
+    
 }
 
 .head_nombre{
-    /*border: 2px dashed salmon;*/
-    color: rgba(243, 58, 12, 0.788);
-    font-family: sans-serif;
-    width: 420px;
-    height: 65px;
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    bottom: 380px;
-    font-size: 4rem;
+    /*border: 2px dashed rgb(199, 69, 8);*/
+    font-size: 8rem;
 }
 
 .head_foto{
     border-radius: 15px;
-    width: 45vh;
-    height: 65vw;
+    width: 18vw;
+    height: 40vh;
     position: relative;
-    top: 40px;
+    top: 5px;
+    left: 20px;
 }
 
+/*---------------------------------*/
+/*----------Seccion Numero 2-------*/
+/*---------------------------------*/
+
+.seccion2 {
+    /*border: 2px dashed rgb(158, 35, 35);*/
+    
+    padding: 10px 0px 100px;
+    flex-direction: row;
+    justify-content:center ;
+    align-items: center;
+}
+
+#seccion2_card1 {
+    margin-top: 20px;
+}
+
+.seccion2_card{
+    /*border: 2px dashed blue;*/
+    height: 300px;
+    width: 250px;
+    margin: 20px 20px;
+}
 }

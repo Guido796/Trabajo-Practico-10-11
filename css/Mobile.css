@@ -1,5 +1,5 @@
 
-/*--------Setear el Index------*/
+/*--------Seteamos el Index y HTML------*/
 *{
     margin: 0;
     padding: 0;
@@ -13,9 +13,9 @@ html{
 /*--------------Encabezado ---------*/
 
 header{
-    border: 2px dashed black;
+    /*border: 2px dashed black;*/
     height: 50vh;
-    background-image: url(../IMG/comunicacion.jpg);
+    background-image: url(../IMG/comunicacion2.jpg);
     background-size:cover ;
     background-repeat: no-repeat;
     display:flex;
@@ -25,33 +25,102 @@ header{
 }
 
 .head{
-    border: 2px dashed cyan;
-    height: 50%;
+    /*border: 2px dashed cyan;*/
+    height: 70%;
     display: flex;
     flex-direction:column;
     justify-content:center ;
     align-items:center ;
-    position: absolute;
-    top: 150px;
+    
 }
 
 .head_nombre{
     /*border: 2px dashed salmon;*/
-    color: rgb(240, 119, 38);
+    color: rgb(248, 246, 245);
     font-family: sans-serif;
-    width: 320px;
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    bottom: 380px;
-    font-size: 3rem;
+    font-size: 5rem;
 }
 
 .head_foto{
-    border-radius: 10px;
-    width: 40vh;
+    /*border-radius: 10px;*/
+    border-radius: 15px;
+    width: 50vw;
     height: 80vw;
     position: relative;
-    top: 20px;
+    top: 90px;
+}
+
+/*--------------------------------------*/
+/*---------------Seccion 2 -------------*/
+/*-------------------------------------*/
+
+.seccion2 {
+    /*border: 2px dashed rgb(158, 35, 35);*/
+    height: auto;
+    padding: 10px 0px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.seccion2_card{
+    background-color: aquamarine;
+    /*border: 2px dashed blue;*/
+    height: 300px;
+    width: 70vw;
+    margin: 20px 0px;
+    border-radius: 8px;
+    box-shadow: 4px 6px 12px -1px;
+    -webkit-box-shadow: 4px 6px 12px -1px;
+    -moz-box-shadow: 4px 6px 12px -1px;
+    
+}
+
+#seccion2_card1 {
+    margin-top:80px;
+}
+
+.seccion2_card1_img {
+    /*border: 1px dashed brown;*/
+    height: 55%;
+    border-radius: 8px 8px 0px 0px;
+    background-image: url(../IMG/tecno.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+#card_img{
+    width: 100%;
+}
+
+.seccion2_card1_texto{
+    /*border: 1px dashed rgb(5, 34, 165);*/
+    height: 45%;
+    border-radius: 0px 0px 8px 8px;
+    padding: 20px;
+}
+
+seccion2_card1_texto-h2{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 15px;
+
+}
+
+seccion2_card1_texto-p{
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#seccion2_card2_img{
+    background-image: url(../IMG/Cicuitos.jpg);
+    background-size: cover;
+}
+
+#seccion2_card3_img{
+    background-image: url(../IMG/cerebro.jpeg);
+    background-size: cover;
 }
 
