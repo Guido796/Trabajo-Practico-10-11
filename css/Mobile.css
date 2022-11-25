@@ -25,7 +25,7 @@ header{
 }
 
 .head{
-    /*border: 2px dashed cyan;*/
+    border: 2px dashed cyan;
     height: 70%;
     display: flex;
     flex-direction:column;
@@ -35,7 +35,7 @@ header{
 }
 
 .head_nombre{
-    /*border: 2px dashed salmon;*/
+    border: 2px dashed salmon;
     color: rgb(248, 246, 245);
     font-family: sans-serif;
     font-size: 5rem;
@@ -47,7 +47,7 @@ header{
     width: 50vw;
     height: 80vw;
     position: relative;
-    top: 90px;
+    top: 70px;
 }
 
 /*--------------------------------------*/
@@ -122,5 +122,28 @@ seccion2_card1_texto-p{
 #seccion2_card3_img{
     background-image: url(../IMG/cerebro.jpeg);
     background-size: cover;
+}
+
+/*-----------Etiqueta Ifreame---------*/
+
+.seccion-video{
+    /*border: 2px dashed red;*/
+    height: 300px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#video1{
+    
+    border-radius: 15px ;
+    border: 5px solid white;
+    width: 300px;
+    height: 200px;
+    box-shadow: 4px 6px 12px -1px;
+    -webkit-box-shadow: 4px 6px 12px -1px;
+    -moz-box-shadow: 4px 6px 12px -1px;
 }
 
